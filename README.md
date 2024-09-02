@@ -19,7 +19,7 @@
   
 ## 📌Objetivo do Projeto
 > [!IMPORTANT]
-> Inserir um objetivo do projeto. 
+> O objetivo do projeto é desenvolver um sistema para monitoramento de estação meteorológica de baixo custo. Este sistema deve fornecer as medidas enviadas por sensores como: direção e velocidade do vento, índice pluviométrico, umidade, temperatura e pressão. Todo o histórico de dados enviados pela estação meteorológica devem ser armazenados pelo sistema, possibilitando a geração de relatórios e dashboards que informem o período e leituras realizadas. O projeto deve também ser capaz de enviar alertas para situações de risco, onde sejam detectadas leituras acima da média conhecida para a região onde a estação meteorológica está instalada. O sistema deve ser capaz de adicionar outros sensores que possam ser instalados nas estações meteorológicas posteriormente. Afim de difundir o conhecimento, o sistema deve fornecer conceitos matemáticos envolvidos nos cálculos dos parâmetros de leitura das estações meteorológicas. 
 
 > **Status do Projeto: Em Desenvolvimento 🚧**
 
@@ -28,7 +28,7 @@
   
 ## 💡Visão do Produto
 > [!TIP]
-> Inserir uma visão do produto.
+> As estações meteorológicas são um recurso importante fornecendo dados das condições climáticas locais ou regionais. Também são usadas para o monitoramento e portanto, redução de danos, causados por desastres naturais envolvendo condições climáticas severas, como alagamentos, deslizamentos, incêndios e riscos à saúde da população. Com o nosso sistema SkyGuard, as estações são capazes de fornecer um fluxo periódico de informações sobre as condições climáticas, permitindo um monitoramento com mais acurácia. A capacidade de envio de alertas para a população e órgãos públicos, dá uma capacidade de tomada de decisão mais precisa e com maior tempo hábil para medidas necessárias em caso de condições adversas que coloquem a segurança pública em risco. O nosso sistema também permite gerar um histórico para acompanhar as condições meteorológicas locais, gerando dados que podem dar informações valiosas sobre o impacto do clima ou mudanças climáticas.
 
 <span id="metodologia">
   
