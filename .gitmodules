@@ -1,0 +1,7 @@
+[submodule "SkyGuard-Back"]
+	path = SkyGuard-Back
+	url = https://github.com/Grupo-Syntax-Squad/SkyGuard-Back.git
+[submodule "SkyGuard-Front"]
+	path = SkyGuard-Front
+	url = https://github.com/Grupo-Syntax-Squad/SkyGuard-Front.git
+
