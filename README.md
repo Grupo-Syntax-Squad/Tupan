@@ -1,4 +1,5 @@
- <img src="/documents/img/skyguardbanner.svg" alt="logo da SkyGuard">
+ ![tupanbanner](https://github.com/user-attachments/assets/aa26e760-8f8c-4536-a520-a0fcffd57d49)
+
 <br>
   
 
