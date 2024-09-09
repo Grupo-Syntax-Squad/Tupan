@@ -1,7 +1,6 @@
-[submodule "Tupã-Back"]
+[submodule "Tupan-Back"]
 	path = Tupan-Back
 	url = https://github.com/Grupo-Syntax-Squad/Tupan-Back.git
-[submodule "Tupã-Front"]
+[submodule "Tupan-Front"]
 	path = Tupan-Front
 	url = https://github.com/Grupo-Syntax-Squad/Tupan-Front.git
-
