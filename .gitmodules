@@ -1,7 +1,7 @@
-[submodule "SkyGuard-Back"]
-	path = Tupã Back
+[submodule "Tupã-Back"]
+	path = Tupan-Back
 	url = https://github.com/Grupo-Syntax-Squad/Tupan-Back.git
-[submodule "SkyGuard-Front"]
-	path = Tupã Front
+[submodule "Tupã-Front"]
+	path = Tupan-Front
 	url = https://github.com/Grupo-Syntax-Squad/Tupan-Front.git
 
