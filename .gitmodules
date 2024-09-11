@@ -1,6 +1,8 @@
 [submodule "Tupan-Back"]
 	path = Tupan-Back
 	url = https://github.com/Grupo-Syntax-Squad/Tupan-Back.git
+	branch = main
 [submodule "Tupan-Front"]
 	path = Tupan-Front
 	url = https://github.com/Grupo-Syntax-Squad/Tupan-Front.git
+	branch = main
