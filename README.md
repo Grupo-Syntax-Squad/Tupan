@@ -103,8 +103,11 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 <br>
 
 ## 📜 Tags de Commit
-<p align="center">
-<img src="/documents/img/padrao_commits.png" width="600" alt="Padrão de Commits">
+<div align="center">
+ 
+![tupanCommits](https://github.com/user-attachments/assets/42d9631c-4556-4b88-9be6-0d6d006efa2b)
+
+</div>
 <br>
 
 ## 👨‍💻**Autores** 
