@@ -99,7 +99,9 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 🧱Modelo de Dados
 <p align="center">
-<img src="/documents/img/data_model.png" alt="Modelo de Dados">
+ 
+![image](https://github.com/user-attachments/assets/0c3776ac-d369-406a-91a9-6ef13661c738)
+
 <br>
 
 ## 📜 Tags de Commit
