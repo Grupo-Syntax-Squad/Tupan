@@ -71,6 +71,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 <img src= "/documents/img/mvp.png" width="600" alt="MVP SkyGuard" >
 <br>
 
+
 <span id="sprints">
 
 ## 📅Sprints 
