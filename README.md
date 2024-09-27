@@ -1,4 +1,4 @@
- ![tupanbanner](https://github.com/user-attachments/assets/aa26e760-8f8c-4536-a520-a0fcffd57d49)
+ ![tupanbanner](/documents/img/Banner.PNG)
 
 <br>
   
@@ -29,7 +29,7 @@
   
 ## 💡Visão do Produto
 > [!TIP]
-> As estações meteorológicas são um recurso importante fornecendo dados das condições climáticas locais ou regionais. Também são usadas para o monitoramento e portanto, redução de danos, causados por desastres naturais envolvendo condições climáticas severas, como alagamentos, deslizamentos, incêndios e riscos à saúde da população. Com o nosso sistema SkyGuard, as estações são capazes de fornecer um fluxo periódico de informações sobre as condições climáticas, permitindo um monitoramento com mais acurácia. A capacidade de envio de alertas para a população e órgãos públicos, dá uma capacidade de tomada de decisão mais precisa e com maior tempo hábil para medidas necessárias em caso de condições adversas que coloquem a segurança pública em risco. O nosso sistema também permite gerar um histórico para acompanhar as condições meteorológicas locais, gerando dados que podem dar informações valiosas sobre o impacto do clima ou mudanças climáticas.
+> As estações meteorológicas são um recurso importante fornecendo dados das condições climáticas locais ou regionais. Também são usadas para o monitoramento e portanto, redução de danos, causados por desastres naturais envolvendo condições climáticas severas, como alagamentos, deslizamentos, incêndios e riscos à saúde da população. Com o nosso sistema Tupã, as estações são capazes de fornecer um fluxo periódico de informações sobre as condições climáticas, permitindo um monitoramento com mais acurácia. A capacidade de envio de alertas para a população e órgãos públicos, dá uma capacidade de tomada de decisão mais precisa e com maior tempo hábil para medidas necessárias em caso de condições adversas que coloquem a segurança pública em risco. O nosso sistema também permite gerar um histórico para acompanhar as condições meteorológicas locais, gerando dados que podem dar informações valiosas sobre o impacto do clima ou mudanças climáticas.
 
 <span id="metodologia">
   
@@ -68,7 +68,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
   
 ## 🏆**MVP**
 <p align="center">
-<img src= "/documents/img/mvp.png" width="600" alt="MVP SkyGuard" >
+<img src= "/documents/img/MVP_1.png" width="600" alt="MVP Tupan" >
 <br>
 
 
