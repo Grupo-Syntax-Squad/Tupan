@@ -87,16 +87,17 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 👥User Stories
 <p align="center">
-<img src= "/documents/img/UserStories1.jpg" width="600" alt="User Stories">
-<img src= "/documents/img/UserStories2.jpg" width="600" alt="User Stories">
-<br>  
+<img src= "/documents/img/user_stories.png" width="600" alt="User Stories">
+<br> 
+
+## 🌱Backlog do Produto
+<p align="center">
+<img src= "/documents/img/Product_Backlog.png" width="600" alt="Product Backlog">
+<br>
 
 ## 🌱Backlog das Sprints
 <p align="center">
-<img src= "/documents/img/Sprint1.jpg" width="600" alt="Sprint1">
-<img src= "/documents/img/Sprint2.jpg" width="600" alt="Sprint2">
-<img src= "/documents/img/Sprint3.jpg" width="600" alt="Sprint3">
-<img src= "/documents/img/Sprint4.jpg" width="600" alt="Sprint4">
+<img src= "/documents/img/Sprints_Backlog.png" width="600" alt="Sprints Backlog">
 <br>
 
 ## 🧱Modelo de Dados
