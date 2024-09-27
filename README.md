@@ -92,7 +92,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 🌱Backlog do Produto
 <p align="center">
-<img src= "/documents/img/Product_Backlog.png" width="600" alt="Product Backlog">
+<img src= "/documents/img/Product_backlog.png" width="600" alt="Product Backlog">
 <br>
 
 ## 🌱Backlog das Sprints
