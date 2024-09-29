@@ -108,6 +108,9 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 <br>
 
+## Arquitetura
+![Imagem arquitetura do sistema](./documents/img/Arquitetura.png)
+
 ## 📜 Tags de Commit
 <div align="center">
  
