@@ -103,7 +103,8 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 ## 🧱Modelo de Dados
 <p align="center">
  
-![image](https://github.com/user-attachments/assets/0c3776ac-d369-406a-91a9-6ef13661c738)
+![image modelo de dados](https://github.com/user-attachments/assets/2b1fa182-39e2-49e5-9e91-dac443eb950a)
+
 
 <br>
 
