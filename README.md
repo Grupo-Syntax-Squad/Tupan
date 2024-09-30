@@ -76,7 +76,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 📅Sprints 
 
-### Sprint - 1️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-1)) Em andamento 🚧
+### Sprint - 1️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-1)) Concluída ☑️
 ### Sprint - 2️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-2)) Em andamento 🚧
 ### Sprint - 3️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-3)) Em andamento 🚧
 ### Sprint - 4️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-4)) Em andamento 🚧
