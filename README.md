@@ -87,7 +87,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 👥User Stories
 <p align="center">
-<img src= "/documents/img/user_stories.png" width="600" alt="User Stories">
+<img src= "/documents/img/user_stories.jpg" width="600" alt="User Stories">
 <br> 
 
 ## 🌱Backlog do Produto
