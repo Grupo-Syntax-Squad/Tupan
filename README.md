@@ -68,7 +68,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
   
 ## 🏆**MVP**
 <p align="center">
-<img src= "/documents/img/MVP_01.png" width="600" alt="MVP Tupan" >
+![MVP_01](https://github.com/user-attachments/assets/f2b2270c-aeb7-491c-840e-ac15a26e4104)
 <br>
 
 
