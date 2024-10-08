@@ -116,7 +116,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 ## 📜 Tags de Commit
 <div align="center">
  
-![tupanCommits](https://github.com/user-attachments/assets/8bf8928b-2883-405c-ad9b-73335e5ddb7a)
+![tupanCommits](https://github.com/user-attachments/assets/ad3fe330-df2d-458a-ae70-5f56dbf8f30b)
 
 </div>
 <br>
