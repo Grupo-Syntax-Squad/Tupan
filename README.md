@@ -67,8 +67,9 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 <span id="mvp">
   
 ## 🏆**MVP**
-<p align="center">
-![MVP_01](https://github.com/user-attachments/assets/f2b2270c-aeb7-491c-840e-ac15a26e4104)
+
+![MVP_01](https://github.com/user-attachments/assets/9bedf7e2-557d-47f4-b032-357cedf04959)
+
 <br>
 
 
@@ -86,18 +87,18 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 
 ## 👥User Stories
-<p align="center">
-<img src= "/documents/img/user_stories.jpg" width="600" alt="User Stories">
+![user_stories](https://github.com/user-attachments/assets/1391888f-bf38-4bb9-bdb6-d4c8d98a40ff)
+
 <br> 
 
 ## 🌱Backlog do Produto
-<p align="center">
-<img src= "/documents/img/Product_backlog.png" width="600" alt="Product Backlog">
+![Product_backlog](https://github.com/user-attachments/assets/6379adb5-4452-4974-94d7-8a8468d2c56e)
+
 <br>
 
 ## 🌱Backlog das Sprints
-<p align="center">
-<img src= "/documents/img/Sprints_Backlog.png" width="600" alt="Sprints Backlog">
+![Sprints_Backlog](https://github.com/user-attachments/assets/cc76136d-765a-4dc8-913a-15d36ad29caf)
+
 <br>
 
 ## 🧱Modelo de Dados
