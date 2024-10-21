@@ -6,3 +6,6 @@
 	path = Tupan-Front
 	url = https://github.com/Grupo-Syntax-Squad/Tupan-Front.git
 	branch = main
+[submodule "Tupan-Consumer"]
+	path = Tupan-Consumer
+	url = https://github.com/Grupo-Syntax-Squad/Tupan-Consumer.git
