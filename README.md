@@ -11,6 +11,7 @@
   <a href="#mvp">MVP</a>  |
   <a href="#sprints">Sprints</a>  |
   <a href="#backlogArtefatos">Backlog & Artefatos</a>  | 
+  <a href="#rastreamentoRequisitos">Rastreamento de Requisitos</a>  | 
   <a href="#autores">Autores</a>  |
 </p>
 
@@ -122,6 +123,272 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 </div>
 <br>
+
+<span id="rastreamentoRequisitos">
+
+<br>
+## 📜 Rasteamento de Requisitos
+
+
+## Requisito 1: Desenvolvimento de um DataLogger
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve utilizar um DataLogger para realizar a recepção dos dados de uma estação meteorologica e enviar para um banco de dados temporarios, onde  
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - O DataLogger deve ser flexivel, aceitando dados com parametros e a quantidade dos mesmos variaveis.
+  - Deve fazer a recepção dos dados a cada 15 minutos.
+
+  **User Story's ligadas ao requisito**
+  ![image](https://github.com/user-attachments/assets/1eda5ddc-2b4f-4b11-b21d-26088101324e)
+  ![image](https://github.com/user-attachments/assets/6bae0a31-b6a1-41b6-8b02-e0fc757018b0)
+  ![image](https://github.com/user-attachments/assets/b78e5aa0-b42c-4cc7-b3ce-63b802f00cc6)
+
+  **Issue ligada ao requisito**
+  - [Issue - #46 Task - BackEnd - criação do DataLogger](https://github.com/Grupo-Syntax-Squad/Tupan/issues/46)
+
+  **Branch ligada ao requisito**
+  - [Branch - 46-func/criação do DataLogger](https://github.com/Grupo-Syntax-Squad/Tupan-Consumer/tree/46-func/criação-do-dataLogger)
+
+
+</details>
+
+### Requisito 2: Montagem de uma Estação Meteorológica
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve permitir que independente de como foi feita a montagem de uma estação meteorológica, os dados  e parametros da mesma, podem ser inseridos em tempo real.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - o sistema deve ser capaz de adicionar/atualizar uma estação e seus dados, como: nome da estação, local(cep, latitude/longitude) parametros de medição, e se a estação está ativa ou não.
+  - A estação deve ser capaz de coletar dados meteorológicos como temperatura, umidade, pressão atmosférica, etc.
+  
+  **User Stories ligadas ao requisito**
+![image](https://github.com/user-attachments/assets/c07917c5-b2ff-4007-a515-42c2f3a9b04c)
+![image](https://github.com/user-attachments/assets/7630f5fb-10f3-47b7-b270-738f0a44d5c8)
+
+
+  **Issue ligada ao requisito**
+  - [ #16-estações-front](https://github.com/Grupo-Syntax-Squad/Tupan/issues/16)
+
+</details>
+
+### Requisito 3: CRUD Estações, Parâmetros, Alertas e Usuários
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve permitir operações de CRUD para estações, parâmetros, alertas e usuários.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - Deve ser possível criar, ler, atualizar e deletar estações e seus parâmetros.
+  
+  **User Stories ligadas ao requisito**
+  - ![image](https://github.com/user-attachments/assets/f9fe7493-0690-44f6-8e41-9991b2213e02)
+  - ![image](https://github.com/user-attachments/assets/2ffabee7-a26a-4573-9899-a62206d5846c)
+  - ![image](https://github.com/user-attachments/assets/108a25ba-8987-435d-a10a-a5a610d760f8)
+
+
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+### Requisito 4: Recepção dos Dados das Estações Meteorológicas
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve ser capaz de receber e processar os dados coletados pelas estações meteorológicas.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - O sistema deve conseguir receber e processar os dados de diferentes fontes meteorológicas.
+
+  **User Stories ligadas ao requisito**
+  - ![image](https://github.com/user-attachments/assets/9c794538-81d5-4c28-8b4b-06df18e46e5f)
+
+
+  **Issue ligada ao requisito**
+  - [](https://github.com/Grupo-Syntax-Squad/Tupan-Consumer/tree/39-func/criacao-do-servico-de-recepcao-dos-dados-das-estacoes)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+### Requisito 5: Dashboard para Visualização dos Parâmetros Meteorológicos
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve fornecer um dashboard para visualizar os parâmetros meteorológicos coletados, facilitando a  consulta de dados.
+
+  **Prioridade:** Média
+
+  **Critérios de Aceitação:**
+  - O usuário deve ser capaz de visualizar os parâmetros meteorológicos em gráficos interativos, podendo assim filtrar dados como parametros e datas.
+
+  **User Stories ligadas ao requisito**
+- ![image](https://github.com/user-attachments/assets/3d5d6852-3147-444c-836f-f81d68f1815c)
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+### Requisito 6: Geração de Alertas
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve ser capaz de gerar alertas com base em uma analise nos parâmetros coletados em relação a parametros pré estabelecidos pelo cliente.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - O sistema deve gerar alertas automaticamente quando determinados parâmetros forem atingidos.
+
+  **User Stories ligadas ao requisito**
+- ![image](https://github.com/user-attachments/assets/fc501498-2fdc-46b6-83f8-48341383a09a)
+- ![image](https://github.com/user-attachments/assets/a2cdb0dd-cb81-4a11-8cfb-ea3f30c26c28)
+- ![image](https://github.com/user-attachments/assets/47829e0d-cf2a-4b8d-ac89-0363487672e2)
+
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+### Requisito 7: Tutorial e Significado de cada Parâmetro Meteorológico
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve fornecer tutoriais que expliquem o significado de cada parâmetro meteorológico e explique como são feitas as medições dos mesmos.
+
+  **Prioridade:** Baixa
+
+  **Critérios de Aceitação:**
+  - O usuário deve ter acesso a explicações detalhadas sobre os parâmetros meteorológicos e como são tratados.
+
+  **User Stories ligadas ao requisito**
+- ![image](https://github.com/user-attachments/assets/36d2c53a-c0f4-4fce-9a29-f2c327ce8e01)
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+## Requisitos Não Funcionais
+
+### Requisito 8: UX dos Dashboards
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** A interface do dashboard deve ser intuitiva e de fácil uso.
+
+  **Prioridade:** Média
+
+  **Critérios de Aceitação:**
+  - O design do dashboard deve ser responsivo e otimizado para dispositivos móveis.
+
+  **User Stories ligadas ao requisito**
+  - (Adicionar links das user stories aqui)
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+### Requisito 9: Documentação
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve ter documentação clara e acessível para todos os desenvolvedores e usuários.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - A documentação deve cobrir todas as funcionalidades principais e como utilizá-las.
+
+  **User Stories ligadas ao requisito**
+  - (Adicionar links das user stories aqui)
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+### Requisito 10: Pipeline de IC
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve ter um pipeline de integração contínua para automatizar testes e deploy.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - O pipeline deve executar testes automaticamente para cada commit.
+
+  **User Stories ligadas ao requisito**
+  - (Adicionar links das user stories aqui)
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+### Requisito 11: Deploy Automático
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  **Descrição:** O sistema deve realizar o deploy automático sempre que uma nova versão for aprovada.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - O deploy automático deve ser acionado após a aprovação do código no pipeline de IC.
+
+  **User Stories ligadas ao requisito**
+  - (Adicionar links das user stories aqui)
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+  **Branch ligada ao requisito**
+  - (Adicionar link da branch aqui)
+
+</details>
+
+
+
+
 
 ## 👨‍💻**Autores** 
 
