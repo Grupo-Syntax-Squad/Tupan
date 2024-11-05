@@ -1,13 +1,13 @@
  ![tupanbanner](/documents/img/Banner.PNG)
 
-<h1 align="center"> Sprint 1 - Tupã </h1>
+<h1 align="center"> Sprint 2 - Tupã </h1>
 <p align="center">
   <a href="#objetivo">Objetivo da Sprint </a> |
   <a href="#objetivo">Requisitos </a> |
   <a href="#objetivo">Wireframe </a>
 </p>
 
-**Início: 09/09  - Fim: 29/09**
+**Início: 30/09  - Fim: 20/10**
 
 **Status do Projeto: Em andamento🚧**
 <br>
@@ -15,7 +15,7 @@
 ## 📉Burndown
 
 
-![Burndown_01](https://github.com/user-attachments/assets/0061a905-95b0-4939-823c-5bcd8917d672)
+
 
 
 </br>
@@ -27,7 +27,7 @@ O objetivo do projeto é monitorar os dados obtidos dos sensores de cada Estaç�
 
  ## 📜Requisitos
  
- - RF 3 - Interface de Cadastro, Alteração, Visualização e Deleção dos Parâmetros, Usuários, Alertas e Estações.
+
 
  
 <br>
