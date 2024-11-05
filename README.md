@@ -136,7 +136,27 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
   
   **Descrição:** O sistema deve utilizar um DataLogger para realizar a recepção dos dados de uma estação meteorologica e enviar para um banco de dados temporarios, onde  
 
-  **Prioridade:** Alta
+  **Definition of Done (DOD)**
+- O sistema implementa a recepção de dados a partir do DataLogger a cada 15 minutos e envia esses dados para o banco de dados temporário.
+- O DataLogger é configurável e aceita dados com parâmetros variáveis em quantidade e tipo.
+- As User Stories associadas (US01, US18, US19 e US23) estão implementadas, testadas e revisadas.
+- Os dados recebidos e processados são exibidos corretamente na interface do usuário, conforme os requisitos.
+- O código foi revisado, está documentado e sem erros críticos.
+- Foram realizados testes de unidade e integração para garantir a correta recepção e processamento dos dados.
+- A aplicação está otimizada para lidar com o recebimento de dados sem perda de desempenho ou inconsistências.
+- A documentação técnica e de uso foi atualizada para incluir detalhes sobre a configuração e operação do DataLogger.
+- A funcionalidade foi implantada e validada em um ambiente de produção ou de homologação com dados reais.
+
+**Definition of Ready (DOR)**
+
+- Os critérios de aceitação para o DataLogger foram definidos e estão claros para toda a equipe.
+- Todas as dependências técnicas, como especificações de API e integração com o banco de dados, foram documentadas e revisadas.
+- O design de como os dados serão exibidos na interface está aprovado.
+- As User Stories estão detalhadas e priorizadas para o desenvolvimento.
+- Os ambientes de desenvolvimento e teste estão configurados e prontos para a implementação do DataLogger.
+- A arquitetura da solução foi revisada, e os requisitos de desempenho e segurança foram especificados.
+- Todos os recursos necessários, incluindo bibliotecas ou componentes de hardware, estão disponíveis.
+- As dependências entre este requisito e outras funcionalidades foram mapeadas e discutidas.
 
   **Critérios de Aceitação:**
   - O DataLogger deve ser flexivel, aceitando dados com parametros e a quantidade dos mesmos variaveis.
@@ -162,11 +182,29 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
   
   **Descrição:** O sistema deve permitir que independente de como foi feita a montagem de uma estação meteorológica, os dados  e parametros da mesma, podem ser inseridos em tempo real.
 
-  **Prioridade:** Alta
+**Definition of Done (DOD)**
 
-  **Critérios de Aceitação:**
-  - o sistema deve ser capaz de adicionar/atualizar uma estação e seus dados, como: nome da estação, local(cep, latitude/longitude) parametros de medição, e se a estação está ativa ou não.
-  - A estação deve ser capaz de coletar dados meteorológicos como temperatura, umidade, pressão atmosférica, etc.
+- O sistema permite o cadastro, atualização e exclusão de estações meteorológicas.
+- Os dados das estações, como nome, local (CEP, latitude e longitude), parâmetros de medição e status (ativo/inativo), são salvos corretamente no banco de dados.
+- A funcionalidade para coletar dados meteorológicos em tempo real (temperatura, umidade, pressão atmosférica, velocidade do vento, etc.) está integrada e operacional.
+- Todas as User Stories associadas foram implementadas, testadas e passaram nos testes unitários e de aceitação.
+- O código está revisado, sem erros críticos, e documentado conforme os padrões do projeto.
+- O frontend está implementado e visualmente validado para exibir informações de forma clara e correta.
+- Testes de integração e automação foram realizados para verificar a comunicação entre o frontend e o backend.
+- Todos os cenários críticos foram testados, incluindo a manipulação de falhas de rede e a precisão dos dados meteorológicos.
+- A documentação do sistema foi atualizada com detalhes das funcionalidades e instruções de uso.
+- A aplicação foi implantada em ambiente de produção e validada com dados reais.
+
+**Definition of Ready (DOR)**
+
+- Os critérios de aceitação estão claramente definidos e compreendidos por todos os membros da equipe.
+- As User Stories estão definadas, completas e priorizadas, prontas para serem implementadas.
+- Os requisitos funcionais e não funcionais foram especificados (incluindo desempenho e segurança).
+- O design da interface de usuário para a funcionalidade foi aprovado e está disponível.
+- Todos os detalhes técnicos necessários, como especificações da API e esquemas de banco de dados, foram definidos.
+- Os ambientes de desenvolvimento e teste estão configurados e prontos para receber novas funcionalidades.
+- A arquitetura da solução foi revisada para garantir que suporta os novos requisitos.
+- Todos os recursos e permissões necessários foram garantidos para a execução da tarefa.
   
   **User Stories ligadas ao requisito**
 ![image](https://github.com/user-attachments/assets/c07917c5-b2ff-4007-a515-42c2f3a9b04c)
@@ -184,7 +222,31 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
   
   **Descrição:** O sistema deve permitir operações de CRUD para estações, parâmetros, alertas e usuários.
 
-  **Prioridade:** Alta
+  **Definition of Done (DOD)**
+
+- As operações CRUD (Criar, Ler, Atualizar, Deletar) estão implementadas e funcionam corretamente para estações, parâmetros, alertas e usuários.
+- As User Stories (US01, US02, etc.) associadas ao requisito estão implementadas e passaram por testes unitários e de aceitação.
+- Todos os dados estão sendo corretamente validados antes de serem enviados ou processados no sistema.
+- A interface do usuário exibe corretamente os dados de CRUD e oferece feedback apropriado para cada operação.
+- Foram realizados testes de usabilidade para garantir uma experiência amigável.
+- O código passou por revisão e está sem erros críticos ou vulnerabilidades conhecidas.
+- Foram implementadas medidas de segurança para proteger os dados dos usuários.
+- A aplicação foi testada em ambientes diferentes para garantir a consistência e o desempenho esperado.
+- A documentação foi atualizada para incluir as operações CRUD e as permissões associadas.
+- A funcionalidade foi implantada e validada em produção, com todos os casos de uso operacionais.
+
+**Definition of Ready (DOR)**
+
+- Os critérios de aceitação foram claramente definidos e compreendidos por toda a equipe.
+- Todas as User Stories relacionadas ao CRUD estão detalhadas, priorizadas e com dependências resolvidas.
+- Os requisitos técnicos, como endpoints de API e modelos de banco de dados, foram especificados.
+- O design da interface de usuário foi aprovado e está disponível para a equipe de desenvolvimento.
+- As dependências externas foram identificadas e estão prontas para uso.
+- O ambiente de desenvolvimento e testes está configurado e acessível à equipe.
+- A equipe tem acesso a exemplos de dados e à documentação técnica necessária para a implementação.
+- As permissões de acesso ao repositório e outras ferramentas estão garantidas.
+- As condições e restrições de segurança foram revisadas e aprovadas.
+- O backlog foi atualizado, e a equipe de desenvolvimento está alocada para trabalhar nesse requisito.
 
   **Critérios de Aceitação:**
   - Deve ser possível criar, ler, atualizar e deletar estações e seus parâmetros.
