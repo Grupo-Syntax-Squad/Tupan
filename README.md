@@ -1,13 +1,13 @@
  ![tupanbanner](/documents/img/Banner.PNG)
 
-<h1 align="center"> Sprint 2 - Tupã </h1>
+<h1 align="center"> Sprint 3 - Tupã </h1>
 <p align="center">
   <a href="#objetivo">Objetivo da Sprint </a> |
   <a href="#objetivo">Requisitos </a> |
   <a href="#objetivo">Wireframe </a>
 </p>
 
-**Início: 30/09  - Fim: 20/10**
+**Início: 21/10  - Fim: 10/11**
 
 **Status do Projeto: Em andamento🚧**
 <br>
