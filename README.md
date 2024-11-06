@@ -35,6 +35,8 @@ O objetivo do projeto é monitorar os dados obtidos dos sensores de cada Estaç�
 ### 🎥 Apresentação do Projeto :
 <div align="center">
   
-  ---
+  <video width="900" controls>
+    <source src="./documents/video/apresentacao-sprint2.mp4" type="video/mp4">
+  </video>
   
 </div>
