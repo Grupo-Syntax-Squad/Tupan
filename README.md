@@ -9,13 +9,7 @@
 
 **Início: 30/09  - Fim: 20/10**
 
-**Status do Projeto: Em andamento🚧**
-<br>
-
-## 📉Burndown
-
-
-
+**Status do Projeto: Concluído ☑️**
 
 
 </br>
@@ -23,12 +17,11 @@
 <span id="objetivo">
   
 ## 📌Objetivo da Sprint
-O objetivo do projeto é monitorar os dados obtidos dos sensores de cada Estação, de modo que eles possam ser visualizados intuitivamente pelos Usuários. Baseando-se no MVP e de acordo com as necessidades do cliente, foi definida como prioridade o Cadastro, Alteração, Verificação e Deleção dos Parâmetros, Usuários, Alertas e Estações.
+O sistema agora recebe os dados dos sensores das estações, e realiza o tratamento dos dados que serão armazenados. Além disso, é possível visualizar estes dados no Dashboard, em forma de gráficos de linhas e barras que vão atualizando a cada segundo.
 
  ## 📜Requisitos
  
-
-
+`RF 5` - Dashboard para visualização dos parâmetros metereológicos
  
 <br>
 
