@@ -9,26 +9,18 @@
 
 **Início: 21/10  - Fim: 10/11**
 
-**Status do Projeto: Em andamento🚧**
+**Status do Projeto: concluído ☑️**
 <br>
-
-## 📉Burndown
-
-
-
-
 
 </br>
 
 <span id="objetivo">
   
 ## 📌Objetivo da Sprint
-O objetivo do projeto é monitorar os dados obtidos dos sensores de cada Estação, de modo que eles possam ser visualizados intuitivamente pelos Usuários. Baseando-se no MVP e de acordo com as necessidades do cliente, foi definida como prioridade o Cadastro, Alteração, Verificação e Deleção dos Parâmetros, Usuários, Alertas e Estações.
+Anteriormente, simulamos os dados que chegariam da estação pelo Consumer, ou seja, dados fictícios. Agora, o Tupan é integrado com a placa, de forma que dados reais das estações chegam ao sistema em tempo real. Também é possível emitir alertas baseados nas condições dos alertas cadastrados, por exemplo: temperatura maior que 40. Caso alguma estação enivar dados da temperatura, sendo ela maior que 40, o alerta é emitido na tela.
 
  ## 📜Requisitos
- 
-
-
+ `RF6`- Geração de Alertas
  
 <br>
 
