@@ -89,6 +89,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 👥User Stories
 ![user_stories](https://github.com/user-attachments/assets/1391888f-bf38-4bb9-bdb6-d4c8d98a40ff)
+[DOD/DOR Das user stories](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
 
 <br> 
 
