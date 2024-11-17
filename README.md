@@ -93,12 +93,14 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 <br> 
 
 ## 🌱Backlog do Produto
-![Product_backlog](https://github.com/user-attachments/assets/6379adb5-4452-4974-94d7-8a8468d2c56e)
+![Product_backlog1](https://github.com/Grupo-Syntax-Squad/Tupan/blob/main/documents/img/Product_backlog1.jpg)
+![Product_backlog2](https://github.com/Grupo-Syntax-Squad/Tupan/blob/main/documents/img/Product_backlog2.jpg)
+
 
 <br>
 
 ## 🌱Backlog das Sprints
-![Sprints_Backlog](https://github.com/user-attachments/assets/cc76136d-765a-4dc8-913a-15d36ad29caf)
+![Sprints_Backlog](https://github.com/Grupo-Syntax-Squad/Tupan/blob/main/documents/img/Sprints_Backlog.jpg)
 
 <br>
 
@@ -453,18 +455,84 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## Cenários de Testes :clipboard:
 
-| Cenário               | Caso de Teste                                        | BDD                                                                                                                                                  | Status |
-|-----------------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| 001-Login             | CT001.001-Login com e-mail inválido                 | **Dado** que eu esteja na tela de login <br> **Quando** preencher usuário com e-mail sem `@` <br> **Então** o sistema deve exibir mensagem de erro "Inclua um `@` no endereço de email". |   :heavy_check_mark:     |
-|                       | CT001.002-Login válido com e-mail e senha           | **Dado** que eu esteja na tela de login <br> **Quando** preencher usuário corretamente <br> **E** preencher campo senha corretamente <br> **Então** o sistema deve acessar a tela inicial. |    :heavy_check_mark:    |
-| 002-Cadastro de Estações | CT002.001-Cadastro de Estação sem dados obrigatórios | **Dado** que eu esteja na tela de cadastro de estações <br> **Quando** não preencher o nome, tópico e endereço (campos obrigatórios) <br> **Então** o sistema deve exibir mensagem de erro "Preencha todos os campos obrigatórios." |   :heavy_check_mark:     |
-|                       | CT002.002-Cadastro de Estação com todos os dados válidos | **Dado** que eu esteja na tela de cadastro de estações <br> **Quando** preencher o nome, tópico e endereço com dados válidos <br> **Então** o sistema deve exibir mensagem "Estação cadastrada com sucesso!" |   :heavy_check_mark:     |
-|                       | CT002.003 - Endereço da estação com CEP inválido     | **Dado** que eu esteja na tela de cadastro de estações <br> **Quando** preencher o endereço da estação com CEP inválido <br> **Então** o sistema deve exibir uma mensagem de que o CEP é inválido |   :heavy_check_mark:     |
-|                       | CT002.004 - Endereço da estação com CEP válido       | **Dado** que eu esteja na tela de cadastro de estações <br> **Quando** preencher o endereço da estação com CEP válido <br> **Então** o sistema deve auto-completar os demais campos com os dados referentes ao CEP |    :heavy_check_mark:    |
-| 003-Cadastro de Alertas | CT003.001-Cadastro de Alertas sem dados obrigatórios | **Dado** que eu esteja na tela de cadastro de alertas <br> **Quando** não preencher o nome e a condição (campos obrigatórios) <br> **Então** o sistema deve exibir mensagem de erro "Preencha os campos obrigatórios." |   :heavy_check_mark:     |
-|                       | CT003.002-Cadastro de Alertas com todos os dados válidos | **Dado** que eu esteja na tela de cadastro de alertas <br> **Quando** preencher o nome e a condição <br> **Então** o sistema deve exibir a mensagem "Alerta cadastrado com sucesso!" |     :heavy_check_mark:   |
-| 004-Cadastro de Parâmetros | CT004.001-Cadastro de Parâmetros sem dados obrigatórios | **Dado** que eu esteja na tela de cadastro de parâmetros <br> **Quando** não preencher o nome do parâmetro, o nome do json e a categoria (campos obrigatórios) <br> **Então** o sistema deve exibir mensagem de erro "Preencha os campos obrigatórios." |   :heavy_check_mark:     |
-|                       | CT004.002-Cadastro de Parâmetros com todos os dados válidos | **Dado** que eu esteja na tela de cadastro de parâmetros <br> **Quando** preencher o nome do parâmetro, o nome do json e a categoria <br> **Então** o sistema deve exibir a mensagem "Parâmetro cadastrado com sucesso!" |  :heavy_check_mark:      |
+### Cenários de Testes
+
+#### 001-Login  
+| Cenário          | Caso de Teste                              | BDD                                                                                       | Status |
+|------------------|--------------------------------------------|-------------------------------------------------------------------------------------------|--------|
+| Login inválido   | CT001.001-Login com e-mail inválido        | Dado que eu esteja na tela de login Quando preencher usuário com e-mail sem @ Então o sistema deve exibir mensagem de erro "Inclua um @ no endereço de email". | ✔️     |
+| Login válido     | CT001.002-Login válido com e-mail e senha  | Dado que eu esteja na tela de login Quando preencher usuário corretamente E preencher campo senha corretamente Então o sistema deve acessar a tela inicial. | ✔️     |
+| Login inválido   | CT001.003-Login com senha inválida        | Dado que eu esteja na tela de login Quando preencher o fomulario utilizando uma senha que não corresponde ao usuario Então o sistema deve exibir mensagem de erro "senha ou usuario incorreto". | ✔️     |
+
+
+#### 002-Cadastro de Estações  
+| Cenário                      | Caso de Teste                                     | BDD                                                                                                                   | Status |
+|------------------------------|--------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------|--------|
+| Cadastro sem dados obrigatórios | CT002.001-Cadastro de Estação sem dados obrigatórios | Dado que eu esteja na tela de cadastro de estações Quando não preencher o nome, tópico e endereço (campos obrigatórios) Então o sistema deve exibir mensagem de erro "Preencha todos os campos obrigatórios." | ✔️     |
+| Cadastro com dados válidos      | CT002.002-Cadastro de Estação com todos os dados válidos | Dado que eu esteja na tela de cadastro de estações Quando preencher o nome, tópico e endereço com dados válidos Então o sistema deve exibir mensagem "Estação cadastrada com sucesso!" | ✔️     |
+| CEP inválido                   | CT002.003-Endereço da estação com CEP inválido  | Dado que eu esteja na tela de cadastro de estações Quando preencher o endereço da estação com CEP inválido Então o sistema deve exibir uma mensagem de que o CEP é inválido | ✔️     |
+| CEP válido                     | CT002.004-Endereço da estação com CEP válido    | Dado que eu esteja na tela de cadastro de estações Quando preencher o endereço da estação com CEP válido Então o sistema deve auto-completar os demais campos com os dados referentes ao CEP | ✔️     |
+
+#### 003-Cadastro de Alertas  
+| Cenário                     | Caso de Teste                                     | BDD                                                                                          | Status |
+|-----------------------------|--------------------------------------------------|----------------------------------------------------------------------------------------------|--------|
+| Cadastro sem dados obrigatórios | CT003.001-Cadastro de Alertas sem dados obrigatórios | Dado que eu esteja na tela de cadastro de alertas Quando não preencher o nome e a condição (campos obrigatórios) Então o sistema deve exibir mensagem de erro "Preencha os campos obrigatórios." | ✔️     |
+| Cadastro com dados válidos      | CT003.002-Cadastro de Alertas com todos os dados válidos | Dado que eu esteja na tela de cadastro de alertas Quando preencher o nome e a condição Então o sistema deve exibir a mensagem "Alerta cadastrado com sucesso!" | ✔️     |
+
+#### 004-Cadastro de Parâmetros  
+| Cenário                     | Caso de Teste                                       | BDD                                                                                          | Status |
+|-----------------------------|----------------------------------------------------|----------------------------------------------------------------------------------------------|--------|
+| Cadastro sem dados obrigatórios | CT004.001-Cadastro de Parâmetros sem dados obrigatórios | Dado que eu esteja na tela de cadastro de parâmetros Quando não preencher o nome do parâmetro, o nome do json e a categoria (campos obrigatórios) Então o sistema deve exibir mensagem de erro "Preencha os campos obrigatórios." | ✔️     |
+| Cadastro com dados válidos      | CT004.002-Cadastro de Parâmetros com todos os dados válidos | Dado que eu esteja na tela de cadastro de parâmetros Quando preencher o nome do parâmetro, o nome do json e a categoria Então o sistema deve exibir a mensagem "Parâmetro cadastrado com sucesso!" | ✔️     |
+
+
+
+#### 005-Cadastro de Usuários  
+| Cenário                     | Caso de Teste                                      | BDD                                                                                              | Status |
+|-----------------------------|---------------------------------------------------|--------------------------------------------------------------------------------------------------|--------|
+| Cadastro sem dados obrigatórios | CT005.001-Cadastro de Usuários sem dados obrigatórios | Dado que eu esteja na tela de cadastro de usuários Quando não preencher o nome, email e senha (campos obrigatórios) Então o sistema deve exibir mensagem de erro "Preencha todos os campos obrigatórios." | ✔️     |
+| Email duplicado                 | CT005.002-Cadastro de Usuários com email duplicado     | Dado que eu esteja na tela de cadastro de usuários Quando preencher o campo email com um já existente no sistema Então o sistema deve exibir a mensagem "Email já cadastrado." | ✔️     |
+| Cadastro com dados válidos      | CT005.003-Cadastro de Usuários com todos os dados válidos | Dado que eu esteja na tela de cadastro de usuários Quando preencher o nome, email e senha corretamente Então o sistema deve exibir a mensagem "Usuário cadastrado com sucesso!" | ✔️     |
+
+#### 006-Visualizar Estações  
+| Cenário                      | Caso de Teste                                           | BDD                                                                                                                    | Status |
+|------------------------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------|
+| Listagem bem-sucedida        | CT006.001-Listagem de estações cadastradas             | Dado que eu esteja na tela de visualização de estações Quando houver estações cadastradas Então o sistema deve exibir uma lista com todas as estações. | ✔️     |
+| Busca com filtro             | CT006.002-Buscar estações por nome                     | Dado que eu esteja na tela de visualização de estações Quando buscar uma estação pelo nome Então o sistema deve exibir apenas as estações que correspondem ao critério. | ✔️     |
+| Estação inexistente          | CT006.003-Buscar estação não existente                | Dado que eu esteja na tela de visualização de estações Quando buscar por uma estação que não existe no sistema Então o sistema deve exibir a mensagem "Nenhuma estação encontrada." | ✔️     |
+
+#### 007-Alterar Estações  
+| Cenário                     | Caso de Teste                                    | BDD                                                                                                      | Status |
+|-----------------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------|
+| Alteração de nome           | CT007.001-Alterar nome da estação               | Dado que eu esteja na tela de edição de estações Quando alterar o campo nome da estação Então o sistema deve salvar a alteração e exibir a mensagem "Estação alterada com sucesso." | ✔️     |
+| Alteração de endereço       | CT007.002-Alterar endereço da estação           | Dado que eu esteja na tela de edição de estações Quando alterar o campo endereço da estação Então o sistema deve salvar a alteração e atualizar o CEP automaticamente. | ✔️     |
+| Falha na edição             | CT007.003-Alterar estação sem dados obrigatórios | Dado que eu esteja na tela de edição de estações Quando tentar salvar alterações sem preencher campos obrigatórios Então o sistema deve exibir a mensagem "Preencha todos os campos obrigatórios." | ✔️     |
+
+
+#### 008-Visualizar Parâmetros  
+| Cenário                      | Caso de Teste                                           | BDD                                                                                                                    | Status |
+|------------------------------|--------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------|
+| Listagem bem-sucedida        | CT008.001-Listagem de parâmetros cadastrados           | Dado que eu esteja na tela de visualização de parâmetros Quando houver parâmetros cadastrados Então o sistema deve exibir uma lista com todos os parâmetros. | ✔️     |
+| Busca com filtro             | CT008.002-Buscar parâmetros por nome                   | Dado que eu esteja na tela de visualização de parâmetros Quando buscar um parâmetro pelo nome Então o sistema deve exibir apenas os parâmetros que correspondem ao critério. | ✔️     |
+| Parâmetro inexistente        | CT008.003-Buscar parâmetro não existente               | Dado que eu esteja na tela de visualização de parâmetros Quando buscar por um parâmetro que não existe no sistema Então o sistema deve exibir a mensagem "Nenhum parâmetro encontrado." | ✔️     |
+
+#### 009-Alterar Parâmetros  
+| Cenário                     | Caso de Teste                                    | BDD                                                                                                      | Status |
+|-----------------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------|
+| Alteração de nome           | CT009.001-Alterar nome do parâmetro             | Dado que eu esteja na tela de edição de parâmetros Quando alterar o campo nome do parâmetro Então o sistema deve salvar a alteração e exibir a mensagem "Parâmetro alterado com sucesso." | ✔️     |
+| Alteração de unidade        | CT009.002-Alterar unidade do parâmetro          | Dado que eu esteja na tela de edição de parâmetros Quando alterar o campo unidade do parâmetro Então o sistema deve salvar a alteração e exibir a mensagem "Parâmetro alterado com sucesso." | ✔️     |
+| Falha na edição             | CT009.003-Alterar parâmetro sem dados obrigatórios | Dado que eu esteja na tela de edição de parâmetros Quando tentar salvar alterações sem preencher campos obrigatórios Então o sistema deve exibir a mensagem "Preencha todos os campos obrigatórios." | ✔️     |
+
+#### 010-Gerenciar Alertas  
+| Cenário                     | Caso de Teste                                    | BDD                                                                                                      | Status |
+|-----------------------------|-------------------------------------------------|----------------------------------------------------------------------------------------------------------|--------|
+| Alteração de condição       | CT010.001-Alterar condição do alerta            | Dado que eu esteja na tela de gerenciamento de alertas Quando alterar a condição do alerta Então o sistema deve salvar a alteração e exibir a mensagem "Alerta alterado com sucesso." | ✔️     |
+| Exclusão de alerta          | CT010.002-Excluir alerta                        | Dado que eu esteja na tela de gerenciamento de alertas Quando optar por excluir um alerta existente Então o sistema deve exibir a mensagem "Alerta excluído com sucesso." | ✔️     |
+| Falha na exclusão           | CT010.003-Excluir alerta inexistente            | Dado que eu esteja na tela de gerenciamento de alertas Quando tentar excluir um alerta que não existe no sistema Então o sistema deve exibir a mensagem "Erro: alerta não encontrado." | ✔️     |
+
+
+
+
 
 
 
