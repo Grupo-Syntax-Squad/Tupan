@@ -256,17 +256,14 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
   - Deve ser possível criar, ler, atualizar e deletar estações e seus parâmetros.
   
   **User Stories ligadas ao requisito**
-  - ![image](https://github.com/user-attachments/assets/f9fe7493-0690-44f6-8e41-9991b2213e02)
-  - ![image](https://github.com/user-attachments/assets/2ffabee7-a26a-4573-9899-a62206d5846c)
-  - ![image](https://github.com/user-attachments/assets/108a25ba-8987-435d-a10a-a5a610d760f8)
+  - [user stories de 1 à 15](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
 
 
 
   **Issue ligada ao requisito**
   - (Adicionar link da issue aqui)
 
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
+
 
 </details>
 
@@ -442,15 +439,86 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
   - O deploy automático deve ser acionado após a aprovação do código no pipeline de IC.
 
   **User Stories ligadas ao requisito**
+  - [US26: Deploy Automático](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's#us26-deploy-autom%C3%A1tico)
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+</details>
+
+### Requisito 12: Testes Automatizados
+<details>
+  <summary>Detalhes do Requisito</summary>
+  
+  
+  **Descrição:** O sistema deve ter testes automatizados implementados para garantir a qualidade e a estabilidade das funcionalidades.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - Testes de unidade devem validar funcionalidades críticas do sistema.
+  - Testes de integração devem garantir que os principais fluxos funcionam conforme esperado.
+
+  **User Stories ligadas ao requisito**
+  - [US27: Testes Unitários no Front-End](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's#us27-testes-unit%C3%A1rios-no-front-end)
+  - [US28: Testes de Integração no Front-End](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's#us28-testes-de-integra%C3%A7%C3%A3o-no-front-end)
+  - [US29: Testes Unitários no Back-End](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's#us29-testes-unit%C3%A1rios-no-back-end)
+  - [US30: Testes de Integração no Back-End](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's#us30-testes-de-integra%C3%A7%C3%A3o-no-back-end)
+
+  **Issue ligada ao requisito**
+  - [FrontEnd - configurar testes unitarios#48](https://github.com/Grupo-Syntax-Squad/Tupan/issues/48)
+  - [Devops - Testes unitários#49](https://github.com/Grupo-Syntax-Squad/Tupan/issues/49)
+  - [Configurar Teste Unitário#53](https://github.com/Grupo-Syntax-Squad/Tupan/issues/53)
+
+
+</details>
+
+### Requisito 13: Manual de Usuário
+<details>
+  <summary>Detalhes do Requisito</summary>
+
+  **Descrição:** O sistema deve fornecer um manual de usuário que cubra todas as funcionalidades e permita ao usuário aprender a usar a aplicação de forma intuitiva.
+
+  **Prioridade:** Alta
+
+  **Critérios de Aceitação:**
+  - O manual deve conter instruções detalhadas sobre o uso de todas as funcionalidades.
+  - O conteúdo deve incluir imagens ou capturas de tela para facilitar o entendimento.
+  - O manual deve estar acessível online em formato digital a qualquer momento.
+  - O manual deve estar em conformidade com os padrões de clareza e linguagem.
+
+  **User Stories ligadas ao requisito**
+  - ([US25: Informações](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's#us25-informa%C3%A7%C3%B5es))
+
+  **Issue ligada ao requisito**
+  - (Adicionar link da issue aqui)
+
+
+
+</details>
+
+### Requisito 14: Geração de Relatórios
+<details>
+  <summary>Detalhes do Requisito</summary>
+
+  **Descrição:** O sistema deve ser capaz de gerar relatórios com dados relevantes de forma eficiente, permitindo ao usuário personalizar a geração dos relatórios.
+
+  **Prioridade:** Média
+
+  **Critérios de Aceitação:**
+  - Relatórios devem incluir dados organizados conforme especificado.
+  - Relatórios devem ser gerados em formatos como Excel.
+  - O usuário deve poder selecionar filtros ou parâmetros para personalizar os relatórios.
+  - Relatórios devem ser gerados de maneira eficiente, com um tempo de resposta inferior a 10 segundos para grandes conjuntos de dados.
+
+  **User Stories ligadas ao requisito**
   - (Adicionar links das user stories aqui)
 
   **Issue ligada ao requisito**
   - (Adicionar link da issue aqui)
 
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
-
 </details>
+
 
 <br>
 
