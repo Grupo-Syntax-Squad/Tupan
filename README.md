@@ -133,6 +133,23 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 ## 📜 Rasteamento de Requisitos
 
+## Introdução
+
+Este tópico apresenta a organização da documentação do projeto para a rastreabilidade de requisitos. A estrutura permite rastrear os requisitos desde a fase inicial até o desenvolvimento e a entrega, garantindo que cada funcionalidade atenda a um ou mais requisitos funcionais ou não funcionais.
+
+![roadmap_rastreamento_requisitos](https://github.com/user-attachments/assets/c35593e4-a70d-4715-8b68-fa8164905935)
+
+## 📜 Tags de Commit
+<div align="center">
+ 
+![tupanCommits](https://github.com/user-attachments/assets/ad3fe330-df2d-458a-ae70-5f56dbf8f30b)
+
+</div>
+<br>
+
+<span id="rastreamentoRequisitos">
+
+<br>
 
 ## Requisito 1: Desenvolvimento de um DataLogger
 <details>
