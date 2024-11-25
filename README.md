@@ -181,6 +181,8 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
   ![image](https://github.com/user-attachments/assets/1eda5ddc-2b4f-4b11-b21d-26088101324e)
   ![image](https://github.com/user-attachments/assets/6bae0a31-b6a1-41b6-8b02-e0fc757018b0)
   ![image](https://github.com/user-attachments/assets/b78e5aa0-b42c-4cc7-b3ce-63b802f00cc6)
+  [DOD/DOR Das user stories](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
+
 
   **Issue ligada ao requisito**
   - [Issue - #46 Task - BackEnd - criação do DataLogger](https://github.com/Grupo-Syntax-Squad/Tupan/issues/46)
@@ -224,6 +226,8 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
   **User Stories ligadas ao requisito**
 ![image](https://github.com/user-attachments/assets/c07917c5-b2ff-4007-a515-42c2f3a9b04c)
 ![image](https://github.com/user-attachments/assets/7630f5fb-10f3-47b7-b270-738f0a44d5c8)
+[DOD/DOR Das user stories](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
+
 
 
   **Issue ligada ao requisito**
@@ -268,6 +272,8 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
   
   **User Stories ligadas ao requisito**
   - [user stories de 1 à 15](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
+  - [DOD/DOR Das user stories](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
+
 
 
 
@@ -296,6 +302,8 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
 
   **User Stories ligadas ao requisito**
   - ![image](https://github.com/user-attachments/assets/9c794538-81d5-4c28-8b4b-06df18e46e5f)
+  - [DOD/DOR Das user stories](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
+
 
 
   **Issue ligada ao requisito**
@@ -319,6 +327,8 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
 
   **User Stories ligadas ao requisito**
 - ![image](https://github.com/user-attachments/assets/3d5d6852-3147-444c-836f-f81d68f1815c)
+- [DOD/DOR Das user stories](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
+
 
   **Issue ligada ao requisito**
   - (Adicionar link da issue aqui)
@@ -343,6 +353,8 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
 - ![image](https://github.com/user-attachments/assets/fc501498-2fdc-46b6-83f8-48341383a09a)
 - ![image](https://github.com/user-attachments/assets/a2cdb0dd-cb81-4a11-8cfb-ea3f30c26c28)
 - ![image](https://github.com/user-attachments/assets/47829e0d-cf2a-4b8d-ac89-0363487672e2)
+- [DOD/DOR Das user stories](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's)
+
 
 
   **Issue ligada ao requisito**
