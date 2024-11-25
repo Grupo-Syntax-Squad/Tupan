@@ -278,7 +278,12 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
 
 
   **Issue ligada ao requisito**
-  - (Adicionar link da issue aqui)
+  - [#2-Parâmetros - Front](https://github.com/Grupo-Syntax-Squad/Tupan/issues/2)
+  - [#5-Alertas / Histórico Alertas / Medição - Back](https://github.com/Grupo-Syntax-Squad/Tupan/issues/5)
+  - [#12-Parâmetros / Estações - Back](https://github.com/Grupo-Syntax-Squad/Tupan/issues/12)
+  - [#15-Usuários - Front](https://github.com/Grupo-Syntax-Squad/Tupan/issues/15)
+  - [#16-Estações - Front](https://github.com/Grupo-Syntax-Squad/Tupan/issues/16)
+  - [#17-Alertas - Front](https://github.com/Grupo-Syntax-Squad/Tupan/issues/17)
 
 
 
