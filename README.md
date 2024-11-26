@@ -307,10 +307,7 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
 
 
   **Issue ligada ao requisito**
-  - [](https://github.com/Grupo-Syntax-Squad/Tupan-Consumer/tree/39-func/criacao-do-servico-de-recepcao-dos-dados-das-estacoes)
-
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
+  - [#39- func - Criação do serviço de recepção dos dados das estações](https://github.com/Grupo-Syntax-Squad/Tupan-Consumer/tree/39-func/criacao-do-servico-de-recepcao-dos-dados-das-estacoes)
 
 </details>
 
@@ -331,10 +328,8 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
 
 
   **Issue ligada ao requisito**
-  - (Adicionar link da issue aqui)
+  - [#44- Recepção das Medições e exibição nos gráficos](https://github.com/Grupo-Syntax-Squad/Tupan/issues/44)
 
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
 
 </details>
 
@@ -358,10 +353,10 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
 
 
   **Issue ligada ao requisito**
-  - (Adicionar link da issue aqui)
+  - [#55 Observabilidade de Alertas no Front](https://github.com/Grupo-Syntax-Squad/Tupan/issues/55)
+  - [#52 Task - BackEnd - disparo de alertas](https://github.com/Grupo-Syntax-Squad/Tupan/issues/52)
 
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
+
 
 </details>
 
@@ -380,10 +375,7 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
 - ![image](https://github.com/user-attachments/assets/36d2c53a-c0f4-4fce-9a29-f2c327ce8e01)
 
   **Issue ligada ao requisito**
-  - (Adicionar link da issue aqui)
-
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
+  - [#31 Educacional - Front](https://github.com/Grupo-Syntax-Squad/Tupan/issues/31)
 
 </details>
 
@@ -400,15 +392,6 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
   **Critérios de Aceitação:**
   - O design do dashboard deve ser responsivo e otimizado para dispositivos móveis.
 
-  **User Stories ligadas ao requisito**
-  - (Adicionar links das user stories aqui)
-
-  **Issue ligada ao requisito**
-  - (Adicionar link da issue aqui)
-
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
-
 </details>
 
 ### Requisito 9: Documentação
@@ -422,14 +405,11 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
   **Critérios de Aceitação:**
   - A documentação deve cobrir todas as funcionalidades principais e como utilizá-las.
 
-  **User Stories ligadas ao requisito**
-  - (Adicionar links das user stories aqui)
-
   **Issue ligada ao requisito**
-  - (Adicionar link da issue aqui)
+  - [57# rastreabilidade de requisitos - Devops](https://github.com/Grupo-Syntax-Squad/Tupan/issues/57)
+  - [32# docs - documentacao de projeto](https://github.com/Grupo-Syntax-Squad/Tupan/issues/32)
 
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
+
 
 </details>
 
@@ -445,13 +425,16 @@ Este tópico apresenta a organização da documentação do projeto para a rastr
   - O pipeline deve executar testes automaticamente para cada commit.
 
   **User Stories ligadas ao requisito**
-  - (Adicionar links das user stories aqui)
+  - [user stories 27, 28, 29](https://github.com/Grupo-Syntax-Squad/Tupan/wiki/09%E2%80%90-User-Story's#us27-testes-unit%C3%A1rios-no-front-end)
 
   **Issue ligada ao requisito**
-  - (Adicionar link da issue aqui)
+  - [#54 Teste de integração dos módulos de usuário](https://github.com/Grupo-Syntax-Squad/Tupan/issues/54)
+  - [#49 Devops - Testes unitários](https://github.com/Grupo-Syntax-Squad/Tupan/issues/49)
+  - [#42 Setup do ambiente de produção](https://github.com/Grupo-Syntax-Squad/Tupan/issues/42)
+  - [#53 Configurar Teste Unitário](https://github.com/Grupo-Syntax-Squad/Tupan/issues/53)
+  - [#48 FrontEnd - configurar testes unitarios](https://github.com/Grupo-Syntax-Squad/Tupan/issues/48)
 
-  **Branch ligada ao requisito**
-  - (Adicionar link da branch aqui)
+
 
 </details>
 
