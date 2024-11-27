@@ -131,8 +131,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 Este tópico apresenta a organização da documentação do projeto para a rastreabilidade de requisitos. A estrutura permite rastrear os requisitos desde a fase inicial até o desenvolvimento e a entrega, garantindo que cada funcionalidade atenda a um ou mais requisitos funcionais ou não funcionais.
 
-![roadmap_rastreamento_requisitos](![image](![image](https://github.com/user-attachments/assets/8a1409ac-9788-4e8e-9a62-752008af562d)
-)
+![roadmap_rastreamento_requisitos](![image](https://github.com/user-attachments/assets/8a1409ac-9788-4e8e-9a62-752008af562d)
 
 o rastreamento começa assim que o Poroduct Owner entende quais são as dores do cliente, e com basse nisso define os requisitos do projeto e seus critérios de aceitação, assim como Dor/Dod.
 
