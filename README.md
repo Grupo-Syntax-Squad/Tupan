@@ -131,7 +131,23 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 
 Este tópico apresenta a organização da documentação do projeto para a rastreabilidade de requisitos. A estrutura permite rastrear os requisitos desde a fase inicial até o desenvolvimento e a entrega, garantindo que cada funcionalidade atenda a um ou mais requisitos funcionais ou não funcionais.
 
-![roadmap_rastreamento_requisitos](https://github.com/user-attachments/assets/c35593e4-a70d-4715-8b68-fa8164905935)
+![roadmap_rastreamento_requisitos](![image](![image](https://github.com/user-attachments/assets/8a1409ac-9788-4e8e-9a62-752008af562d)
+)
+
+o rastreamento começa assim que o Poroduct Owner entende quais são as dores do cliente, e com basse nisso define os requisitos do projeto e seus critérios de aceitação, assim como Dor/Dod.
+
+após isso, são criadas as user stories para detalhar melhor cada uma das funcionalidades atende os requisitos do cliente. E é feito o Dod/Dor de cada user story.
+
+A partir desta documentação feita, é possivel criar as issues e tasks de forma claras e com confiabilidade que os critérios sejam entendidos e atingidos pelo time de desenvolvimento.
+
+Para a realização de cada task, é criada pelo desenvolvedor responsavel pela task, uma branch para que todo o rastreamento daquela tarefa esteja centralizado, e  minimizando as chances de haverem problemas de conflito a cada commit. O nome de cada Branch deve seguir o padrão descrito na imagem a seguir.
+
+após a realização da tarefa, é feito o teste unitário para validar as funções ou dados utilizados na funcionalidade.
+
+assim que a tarefa é aprovada nesse teste, o desenvolvedor cria um pull request para que outro integrante do time que não estava diretamente ligado a tarefa analise o código e aprove ou aponte os pontos de melhorias.
+
+após a validação da tarefa individualmente, é feito o teste de integração, para garantir que a tarefa não afetou outras funcionalidades do sistema e é realizado o merge nos casos onde o teste é bem sucedido!
+
 
 ## 📜 Tags de Commit
 <div align="center">
