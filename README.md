@@ -548,30 +548,6 @@ após a validação da tarefa individualmente, é feito o teste de integração,
 
 <br>
 
-## Cenários de Testes :clipboard:
-
-### Cenários de Testes
-
-| Cenário               | Caso de Teste                                        | BDD                                                                                                                                                  | Status |
-|-----------------------|------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------|--------|
-| 001-Login             | CT001.001-Login com e-mail inválido                 | **Dado** que eu esteja na tela de login <br> **Quando** preencher usuário com e-mail sem `@` <br> **Então** o sistema deve exibir mensagem de erro "Inclua um `@` no endereço de email". |   :heavy_check_mark:     |
-|                       | CT001.002-Login válido com e-mail e senha           | **Dado** que eu esteja na tela de login <br> **Quando** preencher usuário corretamente <br> **E** preencher campo senha corretamente <br> **Então** o sistema deve acessar a tela inicial. |    :heavy_check_mark:    |
-| 002-Cadastro de Estações | CT002.001-Cadastro de Estação sem dados obrigatórios | **Dado** que eu esteja na tela de cadastro de estações <br> **Quando** não preencher o nome, tópico e endereço (campos obrigatórios) <br> **Então** o sistema deve exibir mensagem de erro "Preencha todos os campos obrigatórios." |   :heavy_check_mark:     |
-|                       | CT002.002-Cadastro de Estação com todos os dados válidos | **Dado** que eu esteja na tela de cadastro de estações <br> **Quando** preencher o nome, tópico e endereço com dados válidos <br> **Então** o sistema deve exibir mensagem "Estação cadastrada com sucesso!" |   :heavy_check_mark:     |
-|                       | CT002.003 - Endereço da estação com CEP inválido     | **Dado** que eu esteja na tela de cadastro de estações <br> **Quando** preencher o endereço da estação com CEP inválido <br> **Então** o sistema deve exibir uma mensagem de que o CEP é inválido |   :heavy_check_mark:     |
-|                       | CT002.004 - Endereço da estação com CEP válido       | **Dado** que eu esteja na tela de cadastro de estações <br> **Quando** preencher o endereço da estação com CEP válido <br> **Então** o sistema deve auto-completar os demais campos com os dados referentes ao CEP |    :heavy_check_mark:    |
-| 003-Cadastro de Alertas | CT003.001-Cadastro de Alertas sem dados obrigatórios | **Dado** que eu esteja na tela de cadastro de alertas <br> **Quando** não preencher o nome e a condição (campos obrigatórios) <br> **Então** o sistema deve exibir mensagem de erro "Preencha os campos obrigatórios." |   :heavy_check_mark:     |
-|                       | CT003.002-Cadastro de Alertas com todos os dados válidos | **Dado** que eu esteja na tela de cadastro de alertas <br> **Quando** preencher o nome e a condição <br> **Então** o sistema deve exibir a mensagem "Alerta cadastrado com sucesso!" |     :heavy_check_mark:   |
-| 004-Cadastro de Parâmetros | CT004.001-Cadastro de Parâmetros sem dados obrigatórios | **Dado** que eu esteja na tela de cadastro de parâmetros <br> **Quando** não preencher o nome do parâmetro, o nome do json e a categoria (campos obrigatórios) <br> **Então** o sistema deve exibir mensagem de erro "Preencha os campos obrigatórios." |   :heavy_check_mark:     |
-|                       | CT004.002-Cadastro de Parâmetros com todos os dados válidos | **Dado** que eu esteja na tela de cadastro de parâmetros <br> **Quando** preencher o nome do parâmetro, o nome do json e a categoria <br> **Então** o sistema deve exibir a mensagem "Parâmetro cadastrado com sucesso!" |  :heavy_check_mark:      |
-
-
-
-
-
-
-
-
 ## 👨‍💻**Autores** 
 
 |      Nome      |    Função       |                            Github                             |                           Linkedin                           |
