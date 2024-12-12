@@ -12,7 +12,7 @@
   <a href="#sprints">Sprints</a>  |
   <a href="#backlogArtefatos">Backlog & Artefatos</a>  | 
   <a href="#rastreamentoRequisitos">Rastreamento de Requisitos</a>  | 
-  <a href="#autores">Autores</a>  |
+  <a href="#autores">Autores</a>  
 </p>
 
 </br>
@@ -23,7 +23,7 @@
 > [!IMPORTANT]
 > O objetivo do projeto é desenvolver um sistema para monitoramento de estação meteorológica de baixo custo. Este sistema deve fornecer as medidas enviadas por sensores como: direção e velocidade do vento, índice pluviométrico, umidade, temperatura e pressão. Todo o histórico de dados enviados pela estação meteorológica devem ser armazenados pelo sistema, possibilitando a geração de relatórios e dashboards que informem o período e leituras realizadas. O projeto deve também ser capaz de enviar alertas para situações de risco, onde sejam detectadas leituras acima da média conhecida para a região onde a estação meteorológica está instalada. O sistema deve ser capaz de adicionar outros sensores que possam ser instalados nas estações meteorológicas posteriormente. Afim de difundir o conhecimento, o sistema deve fornecer conceitos matemáticos envolvidos nos cálculos dos parâmetros de leitura das estações meteorológicas. 
 
-> **Status do Projeto: Em Desenvolvimento 🚧**
+> **Status do Projeto: Concluído ✅**
 
 
 <span id="visão">
@@ -81,7 +81,7 @@ Dessa forma, com as Tarefas já traçadas, definimos a quantidade de tempo neces
 ### Sprint - 1️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-1)) Concluída ☑️
 ### Sprint - 2️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-2)) Concluída ☑️
 ### Sprint - 3️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-3)) Concluída ☑️
-### Sprint - 4️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-4)) Em andamento 🚧
+### Sprint - 4️⃣ 🎯 ([Clique aqui](https://github.com/Grupo-Syntax-Squad/SkyGuard/tree/sprint-4)) Concluída ☑️
 
 <span id="backlogArtefatos">
   
